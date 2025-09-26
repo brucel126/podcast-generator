@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     python3.12-dev \
     build-essential \
+    python3-full \
     git
 
 RUN pip3 install PyYAML
